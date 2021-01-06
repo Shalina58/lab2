@@ -65,6 +65,16 @@ namespace ConsoleApp1
                         Console.WriteLine();
                         break;
                 }
+               
+                bool CheckNull()
+                {
+                    if (b == 0)
+                    {
+                        Console.WriteLine("Ошибка! Деление на '0'!");
+                         return false;
+                    }
+                     return true;
+                }
             }
         }
     }
