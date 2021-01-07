@@ -62,6 +62,7 @@ namespace ConsoleApp1
 
                     default:
                         Console.WriteLine("Ошибка, повторите ввод");
+                        Console.WriteLine("Ошибка, повторите ввод!");
                         Console.WriteLine();
                         break;
                 }
